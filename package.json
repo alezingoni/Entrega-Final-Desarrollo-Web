@@ -1,0 +1,19 @@
+{
+  "name": "entrega-final-desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alezingoni/Entrega-Final-Desarrollo-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alezingoni/Entrega-Final-Desarrollo-Web/issues"
+  },
+  "homepage": "https://github.com/alezingoni/Entrega-Final-Desarrollo-Web#readme"
+}
