@@ -96,6 +96,16 @@ footer {
   max-width: 1320px;
   padding: 1rem 0 2rem 0;
   color: black;
+  h2 {
+    padding: 2rem 0 1.2rem 0;
+  }
+  ol {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  li {
+    padding-bottom: 0.5rem;
+  }
 }
 .main__cursos {
   width: 80%;

@@ -17,8 +17,16 @@
     <meta name="author" content="Alejandro Zingoni" />
     <meta name="copyright" content="Alejandro Zingoni" />
 
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <!-- CODIGO CSS -->
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>CriptoAle-Glosario</title>
   </head>
@@ -62,7 +70,11 @@
     <main>
       <section id="home" class="intro-section">
         <div class="main__noticias">
-          <h1>Glosario Criptomonedas - 80 palabras que necesitas conocer</h1>
+          <div class="animate__flipInX-3s 3s">
+            <div data-aos="flip-right" data-aos-duration="2000">
+              <h1>Palabras que necesitas conocer</h1>
+            </div>
+          </div>
           <h2>Glosario Blockchain</h2>
           <ol>
             <li>
@@ -829,23 +841,30 @@
       </section>
     </main>
     <!-- PIE DE PAGINA -->
+
     <footer>
       <div class="footer__design">
-        <h3>
-          © Todos los derechos reservados | Contacto mail:info@criptoale.com
-          <br />
-          Siguenos en nuestras redes
-        </h3>
-        <div class="footer__img">
-          <img src="../img/icono instagram.png" alt="icono instagram" />
+        <div data-aos="zoom-in" data-aos-duration="1500">
+          <h3>
+            © Todos los derechos reservados | Contacto mail:info@criptoale.com
+            <br />
+            Siguenos en nuestras redes
+          </h3>
+          <div class="footer__img">
+            <img src="../img/icono instagram.png" alt="icono instagram" />
 
-          <img src="../img/icono twitter.png" alt="icono twitter" />
+            <img src="../img/icono twitter.png" alt="icono twitter" />
 
-          <img src="../img/icono youtube.png" alt="icono youtube" />
+            <img src="../img/icono youtube.png" alt="icono youtube" />
+          </div>
         </div>
       </div>
     </footer>
     <!-- CODIGO JS -->
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
