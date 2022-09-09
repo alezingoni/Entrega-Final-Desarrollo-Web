@@ -68,7 +68,7 @@ header {
   margin-top: 2%;
 }
 
-.main__noticias {
+.main__glosario {
   width: 80%;
   margin: 0 auto;
   max-width: 1320px;
@@ -93,11 +93,16 @@ header {
 }
 
 .grid__cursos {
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
   display: nome;
   grid-template-rows: 1fr 1fr 1fr;
   grid-row-gap: 40px;
+  h2 {
+    font-size: 1.2rem;
+    padding: 0.5rem 0 1rem 0;
+  }
 }
 .main__recomendaciones {
   width: 80%;
@@ -366,4 +371,18 @@ textarea {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.table-center {
+  text-align: start;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-center td {
+  padding-right: 50px;
+}
+.center-title {
+  text-align: center;
+  background-color: rgb(31, 146, 60);
 }
