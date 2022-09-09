@@ -26,6 +26,7 @@
 
     <!-- CODIGO CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>CriptoAle-Home</title>
   </head>
@@ -74,12 +75,14 @@
           <div class="row">
             <div class="col">
               <div class="display-2">
+                <div data-aos="zoom-in" data-aos-duration="1000">
                 <h1 class="display-2-intro">
                   Es hora de llevar tus inversiones
                 
                   <br />
                   AL SIGUIENTE NIVEL
                 </h1>
+                </div>
             </div>
             <div class="img-box">
               <img src="img/foto btc.jpg" alt="foto bitcoin" />
@@ -88,17 +91,19 @@
           </div>
         </div>
         <div class="info-index">
-          <h2>Aprende a invertir de manera inteligente
-          </h2>
-          <div class="info-index-box">
-          <div class="info-index-box1">
-            <h3>Todo lo que necesitás para invertir, en un solo lugar</h3>
-            Accedé a nuestros cursos de inversión, encontra información actualizada, bibliografía y videos recomendados
-          </div>
-          <div class="info-index-box2">
-            <h3>Asesoramiento personalizado</h3>
-            <p>Te brindamos asesoramiento personalizado. Te ayudamos a armar una cartera de inversión diversificada orientada al mediano plazo o bien a revisar tus inversiones actuales y cómo podés optimizarlas</p>
-          </div>
+          <div data-aos="zoom-in" data-aos-duration="3000">
+            <h2>Aprende a invertir de manera inteligente
+            </h2>
+            <div class="info-index-box">
+            <div class="info-index-box1">
+              <h3>Todo lo que necesitás para invertir, en un solo lugar</h3>
+              Accedé a nuestros cursos de inversión, encontra información actualizada, bibliografía y videos recomendados
+            </div>
+            <div class="info-index-box2">
+              <h3>Asesoramiento personalizado</h3>
+              <p>Te brindamos asesoramiento personalizado. Te ayudamos a armar una cartera de inversión diversificada orientada al mediano plazo o bien a revisar tus inversiones actuales y cómo podés optimizarlas</p>
+            </div>
+          </div> 
         </div>
           
         </div>
@@ -109,6 +114,7 @@
     <!-- PIE DE PAGINA -->
     <footer>
       <div class="footer__design">
+        <div data-aos="zoom-in" data-aos-duration="1500">
         <h3>
           © Todos los derechos reservados | Contacto mail:info@criptoale.com <br />
           Siguenos en nuestras redes
@@ -121,8 +127,13 @@
           <img src="./img/icono youtube.png" alt="icono youtube" />
         </div>
       </div>
+      </div>
     </footer>
     <!-- CODIGO DE JS -->
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

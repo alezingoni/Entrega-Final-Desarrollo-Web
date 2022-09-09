@@ -27,6 +27,7 @@
 
     <!-- CODIGO CSS -->
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>CriptoAle-Recomendaciones</title>
   </head>
@@ -70,7 +71,9 @@
     <main>
       <section id="home" class="intro-section">
         <div class="main__recomendaciones">
-          <h1>Recomendaciones</h1>
+          <div data-aos="flip-right" data-aos-duration="2000">
+            <h1>Recomendaciones</h1>
+          </div>
           <h2 class="h2__libros">Libros Recomendados</h2>
           <table border="1" cellpading="">
             <tr>
@@ -223,21 +226,27 @@
     <!-- CONTENIDO PIE DE PAGINA -->
     <footer>
       <div class="footer__design">
-        <h3>
-          © Todos los derechos reservados | Contacto mail:info@criptoale.com
-          <br />
-          Siguenos en nuestras redes
-        </h3>
-        <div class="footer__img">
-          <img src="../img/icono instagram.png" alt="icono instagram" />
+        <div data-aos="zoom-in" data-aos-duration="1500">
+          <h3>
+            © Todos los derechos reservados | Contacto mail:info@criptoale.com
+            <br />
+            Siguenos en nuestras redes
+          </h3>
+          <div class="footer__img">
+            <img src="../img/icono instagram.png" alt="icono instagram" />
 
-          <img src="../img/icono twitter.png" alt="icono twitter" />
+            <img src="../img/icono twitter.png" alt="icono twitter" />
 
-          <img src="../img/icono youtube.png" alt="icono youtube" />
+            <img src="../img/icono youtube.png" alt="icono youtube" />
+          </div>
         </div>
       </div>
     </footer>
     <!-- CODIGO JS -->
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
