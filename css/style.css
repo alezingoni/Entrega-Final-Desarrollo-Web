@@ -341,14 +341,21 @@ header {
 .main__recomendaciones h1 {
   font-size: 2rem;
 }
+.main__recomendaciones .parrafo-recomendaciones {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+}
 
 .h2__libros {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 .h2__videos {
-  padding-top: 30px;
+  padding-top: 1.5rem;
+  text-align: center;
 }
 
 .grid__videos {
@@ -481,6 +488,11 @@ textarea {
   }
   .main__recomendaciones h1 {
     font-size: 2.5rem;
+  }
+  .main__recomendaciones .parrafo-recomendaciones {
+    text-align: left;
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 1024px) {
