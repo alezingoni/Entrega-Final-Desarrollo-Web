@@ -4,6 +4,9 @@ footer {
   background-color: map-get($footer-color, color2);
   color: whitesmoke;
   text-align: center;
+  .footer-text {
+    font-size: 0.75rem;
+  }
 }
 .footer__design {
   padding-bottom: 15px;
@@ -14,4 +17,13 @@ footer {
   grid-template-columns: 50px 50px 50px;
   justify-content: center;
   grid-gap: 20px;
+}
+.instagram:hover {
+  cursor: pointer;
+}
+.twitter:hover {
+  cursor: pointer;
+}
+.youtube:hover {
+  cursor: pointer;
 }

@@ -1,8 +1,9 @@
+@import "variables";
 /* CSS Index */
 .info-index {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: black;
+  color: $primary-color;
   h2 {
     text-align: center;
     font-size: 1.8rem;

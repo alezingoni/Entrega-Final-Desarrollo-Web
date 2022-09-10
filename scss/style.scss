@@ -73,7 +73,7 @@ header {
   margin: 0 auto;
   max-width: 1320px;
   padding: 1rem 0 2rem 0;
-  color: black;
+  color: $primary-color;
   h2 {
     padding: 2rem 0 1.2rem 0;
   }
@@ -372,17 +372,6 @@ textarea {
   width: 100%;
   position: absolute;
 }
-.table-center {
-  text-align: start;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.table-center td {
-  padding-right: 50px;
-}
-.center-title {
-  text-align: center;
-  background-color: rgb(31, 146, 60);
+.footer-text {
+  font-size: 0.75rem;
 }

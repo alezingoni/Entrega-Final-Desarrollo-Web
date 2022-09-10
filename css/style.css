@@ -201,6 +201,9 @@ footer {
   color: whitesmoke;
   text-align: center;
 }
+footer .footer-text {
+  font-size: 0.75rem;
+}
 
 .footer__design {
   padding-bottom: 15px;
@@ -212,6 +215,18 @@ footer {
   grid-template-columns: 50px 50px 50px;
   justify-content: center;
   grid-gap: 20px;
+}
+
+.instagram:hover {
+  cursor: pointer;
+}
+
+.twitter:hover {
+  cursor: pointer;
+}
+
+.youtube:hover {
+  cursor: pointer;
 }
 
 .container {
@@ -588,20 +603,8 @@ textarea {
   position: absolute;
 }
 
-.table-center {
-  text-align: start;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.table-center td {
-  padding-right: 50px;
-}
-
-.center-title {
-  text-align: center;
-  background-color: rgb(31, 146, 60);
+.footer-text {
+  font-size: 0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
