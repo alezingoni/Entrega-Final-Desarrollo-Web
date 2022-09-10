@@ -91,6 +91,7 @@ img {
 
 .nav__item {
   margin: 0 0 0 1.5rem;
+  padding: 0.2rem 0 0.2rem 0;
 }
 
 .nav__link {
@@ -337,6 +338,9 @@ header {
   max-width: 1320px;
   padding: 1rem 0 0 0;
 }
+.main__recomendaciones h1 {
+  font-size: 2rem;
+}
 
 .h2__libros {
   padding-top: 30px;
@@ -474,6 +478,9 @@ textarea {
     grid-template-rows: auto auto auto;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+  }
+  .main__recomendaciones h1 {
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 1024px) {
